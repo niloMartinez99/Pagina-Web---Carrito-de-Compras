@@ -1,0 +1,369 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FFC8DD;
+}
+
+/* Header y navegación */
+header {
+    background-color: #e26af1;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+
+}
+
+#banner {
+    background-image: url(Imagenes/creaciones\ delfina.jpg); 
+    background-size: cover;
+    background-position: center;
+    color: rgb(39, 11, 138);
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.banner-content h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    background: rgba(240, 187, 231, 0.945)
+}
+
+.banner-content p {
+    font-size: 1.2em;
+    margin-bottom:20px;
+    background: rgba(240, 187, 231, 0.945)
+}
+
+.btn {
+    background-color: #ff5733;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+#Inicio {
+    background-color:#ffafcc; /* Color de fondo suave */
+    padding: 20px; /* Espacio interno */
+    margin-bottom: 40px; /* Margen superior e inferior */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+#Inicio h2 {
+    color: #d85f13; /* Color del título */
+    font-size: 28px; /* Tamaño de fuente */
+    text-align: center; /* Centrar el título */
+}
+
+#Inicio p {
+    color: #333; /* Color del texto */
+    line-height: 1.6; /* Espaciado entre líneas */
+    margin: 10px 0; /* Margen entre párrafos */
+}
+
+/* Estilo de la sección de video */
+.AcercaDe {
+    text-align: center;
+    padding: 40px;
+    background-color: #FFC8DD;
+}
+
+.AcercaDe h2 {
+    font-size: 2rem;
+    color: #333;
+}
+
+.AcercaDe p {
+    font-size: 1.1rem;
+    color: #666;
+    margin: 10px 0 30px;
+}
+
+
+/* Sección Productos */
+#Productos {
+    padding: 20px;
+    background: #ffafcc;
+    margin-bottom: 40px;
+}
+
+.ContenedorProductos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+    transition: transform 0.3s;
+    overflow: hidden;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    max-width: 100%;  /* Asegura que la imagen no exceda el ancho de la tarjeta */
+    height: auto;      /* Mantiene la proporción de la imagen */
+    border-radius: 5px; /* Opcional: agrega bordes redondeados a la imagen */
+
+}
+
+/* Título de la tarjeta */
+.titulo {
+    font-size: 1.2rem;
+    color: #333;
+    margin: 10px 0;
+}
+
+/* Detalles de la tarjeta */
+.detalle {
+    color: #777;
+    font-size: 1rem;
+    margin: 15px 0;
+}
+
+/* Botón de la tarjeta */
+.btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #f310e8;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+/* Seccion Reseñas*/
+#Reseñas{
+    padding: 20px;
+    background-color: #ffafcc;
+    margin-bottom: 40px;
+}
+
+.reseñas-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* 2 o más columnas según el espacio */
+    gap: 20px; /* Espacio entre las tarjetas */
+    padding: 20px; /* Espacio interno del contenedor */
+    background-color: #ffafcc; 
+}
+
+.reseña {
+    background-color: #f9f9f9; /* Color de fondo para las reseñas */
+    border: 1px solid #ddd; /* Borde sutil */
+    border-radius: 5px; /* Bordes redondeados */
+    padding: 15px; /* Espacio interno */
+    text-align: center; /* Centrar el texto */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    transition: transform 0.2s; /* Animación al pasar el mouse */
+}
+
+.reseña:hover {
+    transform: scale(1.05); /* Efecto de aumento al pasar el mouse */
+}
+
+.puntuación {
+    color: gold; /* Color para las estrellas */
+    margin-bottom: 10px; /* Espacio debajo de la puntuación */
+}
+
+/* Sección Contacto */
+#Contacto {
+    background-color: #3333; /* Color de fondo suave */
+    padding: 20px; /* Espacio interno */
+    margin:auto; /* Margen superior e inferior */
+    border-radius: 8px; /* Bordes redondeados */
+    text-align: center; /* Centrar el texto */
+    max-width: 800px;
+    
+}
+
+#Contacto h2 {
+    color: #333; /* Color del título */
+    font-size: 24px; /* Tamaño de fuente */
+    margin-bottom: 10px;
+}
+
+#Contacto p {
+    color: #666; /* Color del texto */
+    margin-bottom: 30px; /* Margen inferior */
+}
+
+/* Contenedor de Contacto */
+.contact-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Sección de Información de Contacto */
+.contact-info {
+    flex: 1;
+    min-width: 250px;
+}
+
+.contact-info h3 {
+    margin-top: 10px;
+}
+
+.social {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.social a {
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    color: white;
+}
+
+.social .facebook { background-color: #3b5998; }
+.social .whatsapp { background-color: #5ad114; }
+.social .instagram { background-color: #e4405f; }
+
+.social a:hover {
+    opacity: 0.8;
+}
+
+.social i {
+    font-size: 1.2em;
+}
+
+/* Formulario de Contacto */
+.contact-form {
+    flex: 1;
+    min-width: 250px;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form label {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.contact-form button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.contact-form button:hover {
+    background-color: #0056b3;
+}
+
+
+/* Ubicacion */
+.Ubicacion {
+    width: 100%;
+    height: 200px;
+    border: 0;
+    margin-top: 20px;
+}
+
+/* Estilos específicos para el carrito de compras */
+.carrito {
+    position: relative;
+}
+
+.carrito i {
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+/* Estilos para el contador del carrito */
+.contador {
+    position: absolute;
+    top: -8px;
+    right: -10px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    padding: 3px 6px;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+/* Footer */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.footer-content {
+    max-width: 800px;
+    margin: auto;
+}
+
+.footer p {
+    margin: 10px 0;
+    font-size: 0.9rem;
+}
+
+/* Media Queries */
+@media (max-width: 600px) {
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .card {
+        width: 100%;
+    }
+}
+
