@@ -1,4 +1,4 @@
-# Pagina-Web---Carrito-de-Compras
+# 🛒 Pagina-Web---Carrito-de-Compras
 Este repositorio contiene los archivos y el código de una página web de ventas con carrito de compras, actualmente en desarrollo utilizando HTML y CSS. El proyecto forma parte del curso de desarrollo web ofrecido por Talento Tech, y se centra en los principios básicos de diseño web y construcción de interfaces de usuario para comercio electrónico.
 
 Descripción del Proyecto 
